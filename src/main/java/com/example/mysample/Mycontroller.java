@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Mycontroller {
 
-    @GetMapping("/myfirst")
+    @GetMapping("/first")
     public String myRestAPI() {
-        return "First API";
+        return "First API testing";
     }
 }
